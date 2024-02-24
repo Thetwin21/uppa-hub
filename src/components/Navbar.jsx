@@ -1,0 +1,32 @@
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+const Navbar = () => {
+  return (
+    <div className="flex items-center justify-between w-full text-[#fff] py-4">
+      <div className="w-[48px] h-[48px]">
+        <Image
+          src="../../assets/Logo-upar 1.svg"
+          width={48}
+          height={48}
+          alt="logo"
+        //   sizes="(max-width: 768px) 100vw,
+        //         (max-width: 1200px) 50vw,
+        //         33vw"
+          style={{ height: '100%', width: '100%' }} 
+        />
+      </div>
+      <nav>
+        <ul className="flex flex-row list-none nav gap-x-5">
+            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Discover</Link></li>
+            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Features</Link></li>
+            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Benefits</Link></li>
+        </ul>
+      </nav>
+     <button className="bg-[#1B95AC] text-white rounded-3xl py-2 px-5">Join waitlist</button>
+    </div>
+  );
+};
+
+export default Navbar;
