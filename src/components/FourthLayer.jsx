@@ -12,6 +12,7 @@ const FourthLayer = () => {
             height={0}
             sizes="100vw"
             style={{ width: "100%", height: "auto" }}
+            alt="image"
           />
         </div>
         <div className="w-[55%] flex flex-col gap-y-3">

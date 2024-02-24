@@ -13,6 +13,7 @@ const SecondLayer = () => {
             height={0}
             sizes="100vw"
             style={{ width: "100%", height: "auto" }}
+            alt='image'
           />
         </div>
         <div className="absolute top-[-10px] right-[-30px] z-[-10]">
