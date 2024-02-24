@@ -19,8 +19,7 @@ const FourthLayer = () => {
           <span className="mb-5">
             {" "}
             <h1 className="text-5xl text-[#ffffff]  font-bold space-y-3 leading-[60px]">
-              Uphold your anonymity or opt for enhanced verification, it's up to
-              you
+              Uphold your anonymity or opt for enhanced verification, it's up to you
             </h1>
             <p className="text-[20px] text-[#ffffffbe] ">
               We partner with leading KYC providers for optional identity
