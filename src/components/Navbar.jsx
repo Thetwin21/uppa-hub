@@ -17,7 +17,7 @@ const Navbar = () => {
           style={{ height: '100%', width: '100%' }} 
         />
       </div>
-      <nav>
+      <nav className="hidden md:block">
         <ul className="flex flex-row list-none nav gap-x-5">
             <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Discover</Link></li>
             <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Features</Link></li>
