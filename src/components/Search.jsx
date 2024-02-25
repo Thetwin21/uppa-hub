@@ -1,4 +1,5 @@
 import React from "react";
+import { MdArrowOutward } from "react-icons/md";
 
 const Search = () => {
   return (
@@ -13,8 +14,8 @@ const Search = () => {
             placeholder="Enter email"
           />
         </div>
-        <button className="bg-[#1B95AC] text-white rounded-3xl py-3 px-5">
-          Join now
+        <button className="bg-[#1B95AC] text-white rounded-3xl py-3 px-5 flex gap-x-2 items-center justify-center">
+          <span>Join now</span> <MdArrowOutward />
         </button>
       </div>
     </div>

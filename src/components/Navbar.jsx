@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
+
 
 const Navbar = () => {
   return (
@@ -24,7 +26,7 @@ const Navbar = () => {
             <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Benefits</Link></li>
         </ul>
       </nav>
-     <button className="bg-[#1B95AC] text-white rounded-3xl py-2 px-5">Join waitlist</button>
+     <button className="bg-[#1B95AC] text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center"><span>Join waitlist</span> <MdArrowOutward /></button>
     </div>
   );
 };
