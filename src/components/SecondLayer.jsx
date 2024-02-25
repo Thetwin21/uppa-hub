@@ -4,7 +4,7 @@ import Bluebg from "./Bluebg";
 
 const SecondLayer = () => {
   return (
-    <div className="relative w-full py-3 mb-10">
+    <div className="relative w-full py-3 mb-44">
       <div className="">
         <div className="w-full">
           <Image
