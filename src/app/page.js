@@ -1,3 +1,5 @@
+import Community from "@/components/Community";
+import Footer from "@/components/Footer";
 import FourthLayer from "@/components/FourthLayer";
 import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
@@ -16,6 +18,8 @@ export default function Home() {
         <ThirdLayer />
         <FourthLayer />
         <Slidecomps />
+        <Community />
+        <Footer />
       </Wrapper>
     </main>
   );
