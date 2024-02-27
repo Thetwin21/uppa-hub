@@ -4,8 +4,8 @@ import Image from "next/image";
 const FourthLayer = () => {
   return (
     <div className="flex items-center justify-center w-full mb-44">
-      <div className="flex justify-center w-full gap-x-3">
-        <div className="w-[35%]">
+      <div className="flex flex-col justify-center w-full md:flex-row gap-x-3">
+        <div className="w-[100%] md:w-[35%]">
           <Image
             src="../assets/pngtree.svg"
             width={0}
@@ -15,10 +15,10 @@ const FourthLayer = () => {
             alt="image"
           />
         </div>
-        <div className="w-[55%] flex flex-col gap-y-6">
+        <div className="w-[100%] md:w-[55%] flex flex-col gap-y-6">
           <span className="mb-5">
             {" "}
-            <h1 className="text-5xl text-[#ffffff]  font-bold space-y-3 leading-[60px]">
+            <h1 className="text-3xl md:text-5xl text-[#ffffff]  font-bold space-y-3 md:leading-[60px] mb-2">
               Uphold your anonymity or opt for enhanced verification, it's up to you
             </h1>
             <p className="text-[20px] text-[#ffffffbe] ">
@@ -26,7 +26,7 @@ const FourthLayer = () => {
               verification, ensuring peace of mind when needed
             </p>
           </span>
-          <div className="grid grid-cols-2 text-white gap-y-5 gap-x-2">
+          <div className="grid grid-cols-1 text-white md:grid-cols-2 gap-y-5 gap-x-2">
             <div className="flex flex-col items-start mb-5 gap-y-3">
               <h3 className="font-semibold text-[20px]">Complete Ecosystem</h3>
               <p className="text-[16px] text-[#ffffffbe]">

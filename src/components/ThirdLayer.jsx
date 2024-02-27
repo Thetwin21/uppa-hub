@@ -3,19 +3,19 @@ import Bluebg from "./Bluebg";
 
 const ThirdLayer = () => {
   return (
-    <div className="relative flex items-center justify-center w-full mb-44">
+    <div className="relative flex items-center justify-center w-full mb-36 md:mb-44">
       <div className="flex flex-col w-full gap-y-6">
-        <h1 className="text-5xl text-[#ffffff]  font-bold space-y-3 leading-[60px]">
+        <h1 className="text-3xl md:text-5xl text-[#ffffff]  font-bold space-y-3 md:leading-[60px]">
           Your one-stop shop for secure and reliable dApps, tokens, and service
           providers in the Solana blockchain.
         </h1>
-        <div className="grid grid-cols-3 mt-6 text-white ">
+        <div className="grid grid-cols-1 mt-6 text-white md:grid-cols-3 ">
           <div className="px-6 bg-[#1F1F21] gap-y-3 flex flex-col justify-center py-7">
             <div>
               <img src="../assets/Icon.svg" alt="" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h3 className="text-[24px] font-semibold">Trusted Marketplace</h3>
+              <h3 className="text-[21px] md:text-[24px] font-semibold">Trusted Marketplace</h3>
               <p className="text-[#ffffffbe]">
                 Upar Hub is your one-stop shop for secure and reliable dApps,
                 tokens, and service providers in the Solana blockchain.
@@ -27,7 +27,7 @@ const ThirdLayer = () => {
               <img src="../assets/Icon.svg" alt="" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h3 className="text-[24px] font-semibold">
+              <h3 className="text-[21px] md:text-[24px] font-semibold">
                 Trusted Collaboration
               </h3>
               <p className="text-[#ffffffbe]">
@@ -42,7 +42,7 @@ const ThirdLayer = () => {
               <img src="../assets/Icon.svg" alt="" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h3 className="text-[24px] font-semibold">
+              <h3 className="text-[21px] md:text-[24px] font-semibold">
                 Anonymous Exploration
               </h3>
               <p className="text-[#ffffffbe]">
@@ -56,7 +56,7 @@ const ThirdLayer = () => {
               <img src="../assets/Icon.svg" alt="" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h3 className="text-[24px] font-semibold">
+              <h3 className="text-[21px] md:text-[24px] font-semibold">
                 Verified Partnerships
               </h3>
               <p className="text-[#ffffffbe]">
@@ -71,7 +71,7 @@ const ThirdLayer = () => {
               <img src="../assets/Icon.svg" alt="" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h3 className="text-[24px] font-semibold">Collaboration Hub</h3>
+              <h3 className="text-[21px] md:text-[24px] font-semibold">Collaboration Hub</h3>
               <p className="text-[#ffffffbe]">
                 Join forces with talented developers, marketers, influencers,
                 and moderators. Find the perfect team to launch your innovative

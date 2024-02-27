@@ -6,10 +6,12 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { RiYoutubeLine } from "react-icons/ri";
+import { FaTelegram } from "react-icons/fa";
+import Animation from "./Animation";
 
 const Footer = () => {
   return (
-    <div className="text-[#ffffff] mb-44 gap-y-4 flex flex-col">
+    <div className="text-[#ffffff] mb-14 gap-y-4 flex flex-col">
       <div className="flex items-center justify-center gap-x-2">
         <div className="w-[48px] h-[48px]">
           <Image
@@ -37,12 +39,14 @@ const Footer = () => {
         </span>
       </div>
       <div className="flex items-center justify-between w-full gap-x-3">
-        <span className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><BsLinkedin /></span>
-        <span className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><BsTwitterX /></span>
-        <span className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><FaInstagram /></span>
-        <span className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><IoLogoFacebook /></span>
-        <span className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><RiYoutubeLine /></span>
+        <Link href="https://x.com/uparhub" className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><BsLinkedin /></Link>
+        <Link href="https://x.com/uparhub" className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><BsTwitterX /></Link>
+        <Link href="https://x.com/uparhub" className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><FaInstagram /></Link>
+        <Link href="https://t.me/uparhub" className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><FaTelegram /></Link>
+        <Link href="https://x.com/uparhub" className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><IoLogoFacebook /></Link>
+        <Link href="https://x.com/uparhub" className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"><RiYoutubeLine /></Link>
       </div>
+      {/* <Animation /> */}
     </div>
   );
 };

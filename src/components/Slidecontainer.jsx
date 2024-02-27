@@ -25,7 +25,7 @@ const slideData = [
 ];
 const Slidecontainer = () => {
   return (
-    <div className="flex my-3 gap-x-6">
+    <div className="flex flex-col my-3 gap-y-3 gap-x-6 w-[100%]">
       {slideData.map((slides, index) => {
         const {id, title, desc } = slides;
         return <Slide key={id} title={title} desc={desc} />;
