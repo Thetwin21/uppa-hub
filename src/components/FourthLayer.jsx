@@ -7,6 +7,7 @@ const FourthLayer = () => {
       <div className="flex flex-col justify-center w-full md:flex-row gap-x-3">
         <div className="w-[100%] md:w-[35%]">
           <Image
+          className="img-animated"
             src="../assets/pngtree.svg"
             width={0}
             height={0}
