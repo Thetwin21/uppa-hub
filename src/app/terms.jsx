@@ -1,11 +1,11 @@
 import React from 'react'
 
-const privacy = () => {
+const terms = () => {
   return (
     <div className="flex items-center justify-center font-semibold text-white">
-    <h3>Coming Soon....</h3>
-</div>
+        <h3>Coming Soon....</h3>
+    </div>
   )
 }
 
-export default privacy
+export default terms

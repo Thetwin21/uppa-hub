@@ -1,6 +1,6 @@
 import React from 'react'
 
-const privacy = () => {
+const features = () => {
   return (
     <div className="flex items-center justify-center font-semibold text-white">
     <h3>Coming Soon....</h3>
@@ -8,4 +8,4 @@ const privacy = () => {
   )
 }
 
-export default privacy
+export default features
