@@ -1,54 +1,47 @@
-'use client'
-import { useEffect } from 'react';
-import gsap from 'gsap';
+// components/EndlessMarquee.js
+"use client";
+import { useState, useEffect } from "react";
 
-const Animation = () => {
+const EndlessMarquee = ({ text }) => {
+  const [animationDuration, setAnimationDuration] = useState(0);
+  const [containerWidth, setContainerWidth] = useState(0);
+
   useEffect(() => {
-    // Define the elements
-    const circle = document.querySelector('.circle');
-    const items = document.querySelectorAll('.item');
+    const container = document.getElementById("marquee-container");
+    const content = document.getElementById("marquee-content");
 
-    // Set the center of the circle
-    const centerX = circle.getBoundingClientRect().left + circle.offsetWidth / 2;
-    const centerY = circle.getBoundingClientRect().top + circle.offsetHeight / 2;
+    if (container && content) {
+      const contentWidth = content.offsetWidth;
+      const containerWidth = container.offsetWidth;
+      const duration = contentWidth / 50; // Adjust speed here
 
-    // Define the radius of the circle
-    const radius = 100;
-
-    // Create a timeline animation
-    const tl = gsap.timeline({ repeat: -1, yoyo: true });
-
-    // Define the rotation angle increment for each item
-    const angleIncrement = (2 * Math.PI) / items.length;
-
-    // Define the duration of the animation
-    const duration = 2;
-
-    // Rotate each item around the circle
-    items.forEach((item, index) => {
-      const angle = angleIncrement * index;
-      const x = centerX + radius * Math.cos(angle);
-      const y = centerY + radius * Math.sin(angle);
-
-      tl.to(item, {
-        duration,
-        x,
-        y,
-        ease: 'power1.inOut',
-      });
-    });
+      setContainerWidth(containerWidth);
+      setAnimationDuration(duration);
+    }
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="relative w-24 h-24 border border-black rounded-full circle">
-        <div className="absolute w-4 h-4 bg-red-500 rounded-full item"></div>
-        <div className="absolute w-4 h-4 bg-green-500 rounded-full item"></div>
-        <div className="absolute w-4 h-4 bg-blue-500 rounded-full item"></div>
-        <div className="absolute w-4 h-4 bg-yellow-500 rounded-full item"></div>
+    <div
+      id="marquee-container"
+      className="overflow-hidden"
+      style={{ width: "100%", height: "50px" }} // Adjust height here
+    >
+      <div
+        id="marquee-content"
+        className={`
+
+        ]
+        
+          'inline-block',
+          'animate-marquee',
+          { 'w-auto': containerWidth > 0 }
+        `}
+        style={{ animationDuration: `${animationDuration}s` }}
+      >
+        {text}
       </div>
     </div>
   );
 };
 
-export default Animation;
+export default EndlessMarquee;

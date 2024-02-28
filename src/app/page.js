@@ -1,3 +1,4 @@
+import EndlessMarquee from "@/components/Animation";
 import Community from "@/components/Community";
 import Footer from "@/components/Footer";
 import FourthLayer from "@/components/FourthLayer";
@@ -10,17 +11,17 @@ import Wrapper from "@/components/Wrapper";
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-center">
-      <Wrapper>
-        <Navbar />
-        <Main />
-        <SecondLayer />
-        <ThirdLayer />
-        <FourthLayer />
-        <Slidecomps />
-        <Community />
-        <Footer />
-      </Wrapper>
+    <main className="">
+    <Wrapper>
+    <Main />
+      <SecondLayer />
+      <ThirdLayer />
+      <FourthLayer />
+
+      <EndlessMarquee text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+      <Slidecomps />
+      <Community />
+    </Wrapper>
     </main>
   );
 }

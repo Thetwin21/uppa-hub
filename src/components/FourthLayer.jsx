@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FourthLayer = () => {
   return (
-    <div className="flex items-center justify-center w-full mb-44">
+    <div className="flex items-center justify-center w-full mb-36 md:mb-44">
       <div className="flex flex-col justify-center w-full md:flex-row gap-x-3">
         <div className="w-[100%] md:w-[35%]">
           <Image

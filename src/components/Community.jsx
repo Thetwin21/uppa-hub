@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Community = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center md:text-inherit gap-y-9 py-[60px] bg-[#272727] w-full rounded-xl mb-44">
+    <div className="flex flex-col items-center justify-center text-center md:text-inherit gap-y-9 py-[60px] bg-[#272727] w-full rounded-xl mb-36 md:mb-44">
       <h1 className="text-3xl md:text-5xl text-[#ffffff] md:max-w-[70%] font-bold ">
         Join our Community
       </h1>
