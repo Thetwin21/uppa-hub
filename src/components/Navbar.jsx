@@ -6,7 +6,8 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="hidden md:flex  items-center justify-between w-full text-[#fff] py-4">
+    <div className="flex justify-center w-screen items-center">
+    <div className="hidden md:flex  items-center justify-between w-full text-[#fff] py-4 px-5 lg:max-w-[1400px]">
       <div className="w-[48px] h-[48px]">
         <Image
           src="../../assets/Logo-upar 1.svg"
@@ -27,6 +28,7 @@ const Navbar = () => {
         </ul>
       </nav>
      <button className="bg-[#1B95AC] group text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center"><span className="hidden transition-all md:block group-hover:block">Join waitlist</span> <MdArrowOutward /></button>
+    </div>
     </div>
   );
 };

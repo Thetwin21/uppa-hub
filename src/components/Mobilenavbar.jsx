@@ -11,7 +11,7 @@ const Mobilenavbar = () => {
         setOpenNav(!openNav)
     }
   return (
-    <div className="flex flex-col items-center justify-between w-full text-[#fff] py-4 sticky top-0 bg-[#121315] z-20">
+    <div className="flex md:hidden flex-col items-center justify-between w-full text-[#fff] py-4 sticky top-0 bg-[#121315] z-20">
       <div className="flex items-center justify-between w-full ">
         {" "}
         <div className="w-[48px] h-[48px]">
