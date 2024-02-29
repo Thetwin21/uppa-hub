@@ -3,13 +3,13 @@ import Bluebg from "./Bluebg";
 
 const ThirdLayer = () => {
   return (
-    <div className="relative flex items-center justify-center w-full mb-36 md:mb-44">
-      <div className="flex flex-col w-full gap-y-6">
-        <h1 className="text-3xl md:text-[64px] text-[#ffffff]  font-bold space-y-3 md:leading-[60px]">
+    <div className="relative flex items-center justify-center w-full mb-[109px]">
+      <div className="flex flex-col w-full gap-y-[50px]">
+        <h1 className="text-3xl md:text-[55px] text-[#ffffff]  font-bold md:leading-[73px]">
           Your one-stop shop for secure and reliable dApps, tokens, and service
           providers in the Solana blockchain.
         </h1>
-        <div className="grid grid-cols-1 mt-6 text-white md:grid-cols-3 ">
+        <div className="grid grid-cols-1 mt-6 overflow-hidden text-white md:grid-cols-3 rounded-3xl">
           <div className="px-6 bg-[#1F1F21] gap-y-3 flex flex-col justify-center py-7">
             <div>
               <img src="../assets/Icon.svg" alt="" />

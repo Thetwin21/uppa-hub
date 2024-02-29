@@ -6,8 +6,8 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-center w-screen items-center">
-    <div className="hidden md:flex  items-center justify-between w-full text-[#fff] py-4 px-5 lg:max-w-[1400px]">
+    <div className="hidden md:flex items-center justify-center w-screen border-b border-[#1D1D1D] py-[20px] px-[20px]">
+    <div className="flex  items-center justify-between w-full text-[#fff] lg:max-w-[1400px]">
       <div className="w-[48px] h-[48px]">
         <Image
           src="../../assets/Logo-upar 1.svg"

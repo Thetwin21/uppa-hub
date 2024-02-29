@@ -13,7 +13,7 @@ import Wrapper from "./Wrapper";
 const Footer = () => {
   return (
     <Wrapper>
-      <div className="text-[#ffffff] mb-14 gap-y-4 flex flex-col">
+      <div className="text-[#ffffff] mb-[60px] gap-y-4 flex flex-col">
         <div className="flex items-center justify-center gap-x-2">
           <div className="w-[48px] h-[48px]">
             <Image
@@ -32,6 +32,9 @@ const Footer = () => {
         <div className="flex justify-between p-2 gap-x-3 text-[16px]">
           <span>
             <Link href="/faq">FAQ</Link>
+          </span>
+          <span>
+            <Link href="/faq">Careers</Link>
           </span>
           <span className="mx-5">
             <Link href="/privacy">Privacy Policy</Link>
