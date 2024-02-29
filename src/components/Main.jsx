@@ -7,7 +7,7 @@ const Main = () => {
 
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center w-full h-[calc(100vh-200px)]  gap-y-9 text-center">
-      <span className="text-4xl md:text-5xl text-[#ffffff] md:max-w-[70%] font-bold space-y-3">
+      <span className="text-4xl md:text-[64px] text-[#ffffff] md:max-w-[70%] font-bold space-y-3">
         <h1 className="">Your Gateway to the Trusted</h1>
         <h1> Solana Ecosystem</h1>
       </span>

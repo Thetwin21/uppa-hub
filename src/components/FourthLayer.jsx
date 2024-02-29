@@ -19,7 +19,7 @@ const FourthLayer = () => {
         <div className="w-[100%] md:w-[55%] flex flex-col gap-y-6">
           <span className="mb-5">
             {" "}
-            <h1 className="text-3xl md:text-5xl text-[#ffffff]  font-bold space-y-3 md:leading-[60px] mb-2">
+            <h1 className="text-3xl md:text-[64px] text-[#ffffff]  font-bold space-y-3 md:leading-[60px] mb-2">
               Uphold your anonymity or opt for enhanced verification, it's up to you
             </h1>
             <p className="text-[20px] text-[#ffffffbe] ">

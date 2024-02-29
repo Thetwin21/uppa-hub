@@ -5,7 +5,7 @@ const ThirdLayer = () => {
   return (
     <div className="relative flex items-center justify-center w-full mb-36 md:mb-44">
       <div className="flex flex-col w-full gap-y-6">
-        <h1 className="text-3xl md:text-5xl text-[#ffffff]  font-bold space-y-3 md:leading-[60px]">
+        <h1 className="text-3xl md:text-[64px] text-[#ffffff]  font-bold space-y-3 md:leading-[60px]">
           Your one-stop shop for secure and reliable dApps, tokens, and service
           providers in the Solana blockchain.
         </h1>
