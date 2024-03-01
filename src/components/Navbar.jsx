@@ -22,9 +22,9 @@ const Navbar = () => {
       </div>
       <nav className="hidden md:block">
         <ul className="flex flex-row list-none nav gap-x-5">
-            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Discover</Link></li>
-            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Features</Link></li>
-            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href=" ">Benefits</Link></li>
+            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href="/discover">Discover</Link></li>
+            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href="/features">Features</Link></li>
+            <li className="px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer"><Link href="/benefits">Benefits</Link></li>
         </ul>
       </nav>
      <button className="bg-[#1B95AC] group text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center"><span className="hidden transition-all md:block group-hover:block">Join waitlist</span> <MdArrowOutward /></button>

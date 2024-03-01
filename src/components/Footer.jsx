@@ -7,7 +7,6 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { RiYoutubeLine } from "react-icons/ri";
 import { FaTelegram } from "react-icons/fa";
-import Animation from "./Animation";
 import Wrapper from "./Wrapper";
 
 const Footer = () => {
@@ -81,7 +80,6 @@ const Footer = () => {
             <RiYoutubeLine />
           </Link>
         </div>
-        {/* <Animation /> */}
       </div>
     </Wrapper>
   );

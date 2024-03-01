@@ -2,6 +2,7 @@ import React from "react";
 import Slidecontainer from "./Slidecontainer";
 
 const Slidecomps = () => {
+  
   return (
     <div className="flex flex-col mb-[50px] gap-y-[50px] w-[100%]">
       <h1 className="text-3xl md:text-[64px] text-[#ffffff]  font-bold  md:leading-[73px]">
