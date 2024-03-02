@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { BsMedium } from "react-icons/bs";
 import { IoLogoFacebook } from "react-icons/io5";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
@@ -44,7 +45,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-between w-full gap-x-3">
           <Link
-            href="https://x.com/uparhub"
+            href="https://www.linkedin.com/company/uparhub/"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <BsLinkedin />
@@ -55,12 +56,7 @@ const Footer = () => {
           >
             <BsTwitterX />
           </Link>
-          <Link
-            href="https://x.com/uparhub"
-            className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
-          >
-            <FaInstagram />
-          </Link>
+
           <Link
             href="https://t.me/uparhub"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
@@ -68,13 +64,13 @@ const Footer = () => {
             <FaTelegram />
           </Link>
           <Link
-            href="https://x.com/uparhub"
+            href="https://medium.com/@uparhub"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
-            <IoLogoFacebook />
+            <BsMedium />
           </Link>
           <Link
-            href="https://x.com/uparhub"
+            href="https://www.youtube.com/@UparHub"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <RiYoutubeLine />

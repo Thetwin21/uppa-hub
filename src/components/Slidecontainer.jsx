@@ -32,7 +32,7 @@ const slideData = [
   {
     id: 5,
     title: "Incubator",
-    desc: "Secure funding and community support for your innovative project",
+    desc: "Get expert guidance and resources to accelerate your journey.",
   },
 ];
 
