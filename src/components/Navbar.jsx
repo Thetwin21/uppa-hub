@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,18 +9,21 @@ const Navbar = () => {
   const path = usePathname();
   return (
     <div className="hidden md:flex items-center justify-center w-screen border-b border-[#1D1D1D] py-[20px] px-[20px]">
-      <div className="flex  items-center justify-between w-full text-[#fff] lg:max-w-[1400px]">
+      <div className="flex  items-center justify-between w-full text-[#fff] max-w-screen-sm px-5 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
         <div className="w-[48px] h-[48px]">
-          <Image
-            src="../../assets/Logo-upar 1.svg"
-            width={48}
-            height={48}
-            alt="logo"
-            //   sizes="(max-width: 768px) 100vw,
-            //         (max-width: 1200px) 50vw,
-            //         33vw"
-            style={{ height: "100%", width: "100%" }}
-          />
+          <Link href="/">
+            {" "}
+            <Image
+              src="../../assets/Logo-upar 1.svg"
+              width={48}
+              height={48}
+              alt="logo"
+              //   sizes="(max-width: 768px) 100vw,
+              //         (max-width: 1200px) 50vw,
+              //         33vw"
+              style={{ height: "100%", width: "100%" }}
+            />
+          </Link>
         </div>
         <nav className="hidden md:block">
           <ul className="flex flex-row list-none nav gap-x-5">
@@ -33,14 +36,14 @@ const Navbar = () => {
             </li>
             <li
               className={`${
-                path == '/features' ? "bg-[#393D3E]" : ""
+                path == "/features" ? "bg-[#393D3E]" : ""
               } px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer`}
             >
               <Link href="/features">Features</Link>
             </li>
             <li
               className={`${
-                path == '/benefits' ? "bg-[#393D3E]" : ""
+                path == "/benefits" ? "bg-[#393D3E]" : ""
               } px-5 py-2 rounded-3xl hover:bg-[#393D3E] cursor-pointer`}
             >
               <Link href="/benefits">Benefits</Link>

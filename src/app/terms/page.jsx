@@ -5,8 +5,8 @@ const terms = () => {
   return (
     <Wrapper>
       <div className="w-full my-[50px] text-white">
-        <div className="w-full my-3 mb-3 text-center">
-          <h3 className="text-[34px] font-semibold">Upar Hub FAQ</h3>
+        <div className="w-full my-3 mb-3 text-center gap-y-2">
+          <h3 className="text-[34px] font-semibold">Terms And Conditions</h3>
           <p>
             By accessing or using Upar Hub, you agree that you have read,
             understood, and accept to be bound by these Terms of Service. If you

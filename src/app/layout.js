@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Mobilenavbar from "@/components/Mobilenavbar";
-import  { Viewport } from 'next'
 
 const inter = Inter({ subsets: ["latin"] });
 

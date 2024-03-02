@@ -4,6 +4,7 @@ import Slide from "./Slide";
 import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useState } from "react";
 
 gsap.registerPlugin(ScrollTrigger); // Register ScrollTrigger plugin
 
@@ -25,42 +26,51 @@ const slideData = [
   },
   {
     id: 4,
+    title: "Launchpad",
+    desc: "Secure funding and community support for your innovative project",
+  },
+  {
+    id: 5,
     title: "Incubator",
     desc: "Secure funding and community support for your innovative project",
   },
 ];
 
 const Slidecontainer = () => {
-  const containerRef = useRef(null);
-  const slideWidth = 300; // Width of each slide (adjust according to your design)
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [offsetX, setOffsetX] = useState(0);
 
-  useEffect(() => {
-    const containerElement = containerRef.current;
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setStartX(e.pageX);
+    setOffsetX(0);
+  };
 
-    gsap.set(containerElement, { x: 0 });
+  const handleMouseMove = (e) => {
+    if (isDragging) {
+      const newOffsetX = e.pageX - startX;
+      setOffsetX(newOffsetX);
+    }
+  };
 
-    gsap.to(containerElement, {
-      x: -(slideData.length * slideWidth) + window.innerWidth,
-      ease: "none",
-      scrollTrigger: {
-        trigger: containerElement,
-        start: "top top",
-        end: `+=${slideData.length * slideWidth - window.innerWidth}`,
-        scrub: true,
-        pin: true,
-      },
-    });
-  }, []);
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
   return (
-    <div>
+    <div className="relative w-full overflow-x-hidden h-[400px]">
       <div
-        ref={containerRef}
-        className="flex flex-col md:flex-row my-3 gap-y-3 gap-x-6 w-[100%]"
+        className="flex my-3 gap-y-3 gap-x-6 w-[100%] absolute top-0 left-0 "   onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+        style={{ transform: `translateX(${offsetX}px)` }}
       >
         {slideData.map((slides, index) => {
           const { id, title, desc } = slides;
           return (
-            <Slide key={id} title={title} desc={desc} width={slideWidth} />
+            <Slide key={id} title={title} desc={desc}/>
           );
         })}
       </div>

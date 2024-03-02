@@ -5,7 +5,7 @@ const Slide = ({ title, desc,width }) => {
 
 
   return (
-    <div className={`flex flex-col text-[#ffffff] rounded-lg px-5 py-7 bg-[#272727] w-[${width}] md:w-[300px] h-[220px]  items-center`}>
+    <div className="flex flex-col text-[#ffffff] rounded-lg px-5 py-7 bg-[#272727] w-[300px] min-w-[300px] h-[220px]  items-center">
         <div className="flex flex-col h-full place-content-between">
         <div className="flex flex-col gap-y-3">
           <h3 className="text-[20px] font-semibold">{title}</h3>

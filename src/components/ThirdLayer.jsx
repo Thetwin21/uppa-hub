@@ -9,7 +9,7 @@ const ThirdLayer = () => {
           Your one-stop shop for secure and reliable dApps, tokens, and service
           providers in the Solana blockchain.
         </h1>
-        <div className="grid grid-cols-1 mt-6 overflow-hidden text-white md:grid-cols-3 rounded-3xl">
+        <div className="grid grid-cols-1 mt-6 overflow-hidden text-white md:grid-cols-2 lg:grid-cols-3 rounded-3xl">
           <div className="px-6 bg-[#1F1F21] gap-y-3 flex flex-col justify-center py-7">
             <div>
               <img src="../assets/Icon.svg" alt="" />
