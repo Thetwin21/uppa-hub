@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import Search from "./Search";
+import Parallex from "./Parallex";
 
 const Main = () => {
   // const elementRef = useRef(null);
@@ -24,6 +25,7 @@ const Main = () => {
       <div>
         <Search />
       </div>
+     {/* <Parallex />  */}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import Bluebg from "./Bluebg";
+import Parallex from "./Parallex";
 
 const ThirdLayer = () => {
   return (
@@ -84,6 +85,8 @@ const ThirdLayer = () => {
       <div className="absolute z-[-10] left-[-10px] bottom-[-10px]">
         <Bluebg bgcolor="bg-[#A3CA00]" />
       </div>
+      
+      <Parallex />
     </div>
   );
 };
