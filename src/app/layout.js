@@ -18,14 +18,15 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full ">
       <body
-        className={`bg-[#121315] flex flex-col items-center justify-center `}
+        className={`bg-[#121315] flex flex-col items-center justify-center relative`}
       >
-        <Navbar />
         <Parallex pos="top-0" />
+        <Navbar />
         <Mobilenavbar />
         {children}
+        <Parallex pos="bottom-0" />
         <Footer />
       </body>
     </html>
