@@ -18,9 +18,9 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`bg-[#121315] flex flex-col items-center justify-center`}
+        className={`bg-[#121315] flex flex-col items-center justify-center `}
       >
         <Navbar />
         <Parallex pos="top-0" />
