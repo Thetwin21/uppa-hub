@@ -3,6 +3,7 @@ import React from "react";
 import Slide from "./Slide";
 import { useRef, useEffect } from "react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useState } from "react";
 
@@ -36,41 +37,33 @@ const slideData = [
   },
 ];
 
-const Slidecontainer = () => {
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [offsetX, setOffsetX] = useState(0);
+const Slidecontainer = ({slideRef}) => {
 
-  const handleMouseDown = (e) => {
-    setIsDragging(true);
-    setStartX(e.pageX);
-    setOffsetX(0);
-  };
-
-  const handleMouseMove = (e) => {
-    if (isDragging) {
-      const newOffsetX = e.pageX - startX;
-      setOffsetX(newOffsetX);
-    }
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
+  useGSAP(
+    () => {
+      gsap.to(".slideanime", {
+        x: 1000,
+        duration: 3,
+        scrollTrigger: {
+          trigger: ".box",
+          start: "top 80%",
+          end: "top 30%",
+          scrub: 4,
+        },
+      }); // <-- automatically reverted
+    },
+    { scope: slideRef }
+  );
 
   return (
     <div className="relative w-full overflow-x-hidden h-[400px]">
-      <div
-        className="flex my-3 gap-y-3 gap-x-6 w-[100%] absolute top-0 left-0 "   onMouseDown={handleMouseDown}
-        onMouseMove={handleMouseMove}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
-        style={{ transform: `translateX(${offsetX}px)` }}
-      >
+      <div className="slideanime translate-x-[-100%] flex my-3 gap-y-3 gap-x-6 w-[100%] absolute top-0 left-0 ">
         {slideData.map((slides, index) => {
           const { id, title, desc } = slides;
           return (
-            <Slide key={id} title={title} desc={desc}/>
+            <div>
+              <Slide key={id} title={title} desc={desc} />
+            </div>
           );
         })}
       </div>

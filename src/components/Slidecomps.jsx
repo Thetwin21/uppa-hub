@@ -1,7 +1,7 @@
 import React from "react";
 import Slidecontainer from "./Slidecontainer";
 
-const Slidecomps = () => {
+const Slidecomps = ({slideRef}) => {
   
   return (
     <div className="flex flex-col mb-[50px] gap-y-[50px] w-[100%]">
@@ -9,7 +9,7 @@ const Slidecomps = () => {
         Invest with confidence, knowing our experts have rigorously evaluated
         every offering.
       </h1>
-      <Slidecontainer />
+      <Slidecontainer slideRef={slideRef} />
     </div>
   );
 };
