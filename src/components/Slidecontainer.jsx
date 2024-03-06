@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
 import Slide from "./Slide";
-import { useRef, useEffect } from "react";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { useState } from "react";
+import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger); // Register ScrollTrigger plugin
 
@@ -36,28 +34,27 @@ const slideData = [
     desc: "Get expert guidance and resources to accelerate your journey.",
   },
 ];
+gsap.registerPlugin(ScrollTrigger)
 
-const Slidecontainer = ({slideRef}) => {
+const Slidecontainer = () => {
 
-  useGSAP(
-    () => {
-      gsap.to(".slideanime", {
-        x: 1000,
-        duration: 3,
-        scrollTrigger: {
-          trigger: ".box",
-          start: "top 80%",
-          end: "top 30%",
-          scrub: 4,
-        },
-      }); // <-- automatically reverted
-    },
-    { scope: slideRef }
-  );
+  useEffect(()=> {
+  gsap.to(".slide-wrapper",{
+    x: "100%",
+    duration: 5,
+    scrollTrigger:{
+      trigger: ".slide-wrapper",
+      start: "top 80%",
+      scrub: true,
+      markers: true
+    }
+  })
+  })
+
 
   return (
-    <div className="relative w-full overflow-x-hidden h-[400px]">
-      <div className="slideanime translate-x-[-100%] flex my-3 gap-y-3 gap-x-6 w-[100%] absolute top-0 left-0 ">
+    <div className="slide-container relative w-full overflow-x-hidden h-[400px]">
+      <div className="slide-wrapper translate-x-[-100%] flex my-3 gap-y-3 gap-x-6 w-[100%] absolute top-0 left-0 ">
         {slideData.map((slides, index) => {
           const { id, title, desc } = slides;
           return (

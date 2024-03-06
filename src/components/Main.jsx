@@ -14,7 +14,7 @@ const Main = () => {
       <div className="flex flex-col items-center justify-center w-full gap-7 md:gap-y-9">
         <span className="text-4xl md:text-[64px] text-[#ffffff] md:max-w-[70%] mb-4 font-bold md:space-y-[16px] md:leading-[73px]">
           <h1 className="">
-            Your Gateway to the Trusted <br className="hidden md:block" />{" "}
+            Your Gateway to the <br className="hidden md:block" />{" "}
             Solana Ecosystem
           </h1>
         </span>
