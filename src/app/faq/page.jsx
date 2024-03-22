@@ -45,7 +45,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold"> What is Upar Hub?</span>
               <svg
@@ -77,7 +77,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen1}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
                 {" "}
@@ -159,7 +159,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen2}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
                 {" "}
@@ -242,7 +242,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen3}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
                 What are the benefits of using Upar Hub?
@@ -312,7 +312,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen4}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
                 {" "}
@@ -347,7 +347,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen5}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
                 what is the Upar Hub token?
@@ -385,7 +385,7 @@ const faq = () => {
           <div className="mb-6 min-w-[200px] w-full">
             <button
               onClick={toggleOpen6}
-              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#8a909f] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
+              className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
                 Where can I learn more about Upar Hub?

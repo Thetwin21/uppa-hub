@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-between w-full gap-x-3">
           <Link
-            href="https://www.linkedin.com/company/uparhub/"
+            href=""
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <BsLinkedin />

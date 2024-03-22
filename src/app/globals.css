@@ -105,3 +105,43 @@ body {
     transform: translateY(-2000px);
   }
 }
+
+
+/* infinite slide */
+
+.orb {
+  transition: all .2s ease-out;
+}
+
+.orb:hover {
+  /* transform: scale(1.2); */
+  opacity: .5;
+  cursor: pointer;
+}
+
+.marquee,.ecosystem {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+.marquee::-webkit-scrollbar, .ecosystem::-webkit-scrollbar {
+  display: none;
+}
+
+.marquee--inner {
+  animation: marquee 20s linear infinite;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+/*.half {
+  float: left;
+  width: 10%;
+}*/
+
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}

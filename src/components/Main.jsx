@@ -11,21 +11,21 @@ const Main = () => {
       data-aos="fade-up"
       className="flex flex-col items-center justify-center w-full h-[calc(100vh-200px)] gap-y-[28px] text-center"
     >
-      <div className="flex flex-col items-center justify-center w-full gap-7 md:gap-y-9">
+      <div className="flex flex-col items-center justify-center w-full">
         <span className="text-4xl md:text-[64px] text-[#ffffff] md:max-w-[70%] mb-4 font-bold md:space-y-[16px] md:leading-[73px]">
           <h1 className="">
-            Your Gateway to the <br className="hidden md:block" />{" "}
-            Solana Ecosystem
+            Your Gateway
+            <br className="hidden md:block" /> to the Solana Ecosystem
           </h1>
         </span>
-        <p className="text-[#ffffffbe] text-[18px]  md:text-[20px]">
-          Unleash the Power of Collaboration in the Secure World of Upar Hub
+        <p className="text-[#ffffffbe] text-[20px] md:text-[26px]">
+        Discover, Collaborate, & Own Your Solana Journey
         </p>
       </div>
       <div>
-        <Search />
+        <button className="bg-[rgba(89,183,233,1)] h-[46px] w-[176px] flex justify-center items-center font-semibold rounded-[10px] text-[#fff]">Learn More</button>
       </div>
-     {/* <Parallex />  */}
+      {/* <Parallex />  */}
     </div>
   );
 };

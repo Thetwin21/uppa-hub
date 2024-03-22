@@ -2,8 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MdArrowOutward } from "react-icons/md";
+import { MdArrowOutward, MdClose } from "react-icons/md";
 import { usePathname } from "next/navigation";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const path = usePathname();
@@ -54,7 +55,9 @@ const Navbar = () => {
           <span className="hidden transition-all md:block group-hover:block">
             Join waitlist
           </span>{" "}
-          <MdArrowOutward />
+          <div>
+            <MdArrowOutward />
+          </div>
         </button>
       </div>
     </div>
