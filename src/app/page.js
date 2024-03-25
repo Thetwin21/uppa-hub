@@ -1,8 +1,6 @@
 'use client'
 import Community from "@/components/Community";
 import Ecosystem from "@/components/Ecosystem";
-import FaqItem from "@/components/Faq";
-import FourthLayer from "@/components/FourthLayer";
 import Main from "@/components/Main";
 import SecondLayer from "@/components/SecondLayer";
 import Slidecomps from "@/components/Slidecomps";
@@ -16,7 +14,6 @@ export default function Home() {
         <Main />
         <SecondLayer />
         <ThirdLayer />
-        {/* <FourthLayer /> */}
         <Slidecomps />
         <Ecosystem /> 
         <Community />
