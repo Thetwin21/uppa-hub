@@ -1,10 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Search from "./Search";
-import Parallex from "./Parallex";
 
 const Main = () => {
-  // const elementRef = useRef(null);
 
   return (
     <div
@@ -23,9 +20,8 @@ const Main = () => {
         </p>
       </div>
       <div>
-        <button onMouseOver={document.innerHTML = ""} className="bg-[rgba(89,183,233,1)] h-[46px] w-[176px] flex justify-center items-center font-semibold rounded-[10px] text-[#fff]">Learn More</button>
+        <button className="bg-[rgba(89,183,233,1)] h-[46px] w-[176px] flex justify-center items-center font-semibold rounded-[10px] text-[#fff]">Learn More</button>
       </div>
-      {/* <Parallex />  */}
     </div>
   );
 };

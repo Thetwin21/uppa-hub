@@ -8,7 +8,7 @@ import Parallex from "@/components/Parallex";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "uparhub",
+  title: "synesxi",
   description: "a solana ecosystem",
 };
 export const viewport = {

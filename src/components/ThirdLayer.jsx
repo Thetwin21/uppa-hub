@@ -1,5 +1,5 @@
 import React from "react";
-import Bluebg from "./Bluebg";
+import Image from "next/image";
 import Parallex from "./Parallex";
 
 const ThirdLayer = () => {
@@ -13,119 +13,195 @@ const ThirdLayer = () => {
 
         <div className="relative w-full overflow-y-hidden h-[360px] marquee">
           <div className="absolute flex w-full h-full marquee--inner scroll-m-0">
-      
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                  src="../assets/trader.svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Traders/Investors
+                  Traders/Investors
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Conduct in-depth research on tokens and dApps on the Solana Blockchain to make informed investment decisions. Explore a curated marketplace of  vetted cryptocurrency  tokens. While we don't handle trades directly, you can access your favourite and other reputable exchanges for seamless trading experiences all within Synesxi.
+                  Conduct in-depth research on tokens and dApps on the Solana
+                  Blockchain to make informed investment decisions. Explore a
+                  curated marketplace of  vetted cryptocurrency  tokens. While
+                  we don't handle trades directly, you can access your favourite
+                  and other reputable exchanges for seamless trading experiences
+                  all within Synesxi.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                  src="../assets/Icon (11).svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Fostering Collaboration
+                  Fostering Collaboration
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Synesxi actively promotes multifaceted collaboration across the entire Solana ecosystem.
-
+                  Synesxi actively promotes multifaceted collaboration across
+                  the entire Solana ecosystem.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                  src="../assets/Icon (12).svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Service Providers
+                  Service Providers
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Showcase your expertise and connect with businesses actively shaping the future of Solana. Target your ideal clients efficiently within this booming ecosystem and unlock new business opportunities.
+                  Showcase your expertise and connect with businesses actively
+                  shaping the future of Solana. Target your ideal clients
+                  efficiently within this booming ecosystem and unlock new
+                  business opportunities.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                  src="../assets/Icon (10).svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Developers
+                  Developers
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Launch, propel your tokens and or  dApps to new heights. Gain valuable exposure and build a loyal user base within the ever-expanding Solana ecosystem. Synesxi fosters a seamless environment for direct interaction with potential users, accelerating your growth journey.
+                  Launch, propel your tokens and or  dApps to new heights. Gain
+                  valuable exposure and build a loyal user base within the
+                  ever-expanding Solana ecosystem. Synesxi fosters a seamless
+                  environment for direct interaction with potential users,
+                  accelerating your growth journey.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                  src="../assets/trader.svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Traders/Investors
+                  Traders/Investors
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Conduct in-depth research on tokens and dApps on the Solana Blockchain to make informed investment decisions. Explore a curated marketplace of  vetted cryptocurrency  tokens. While we don't handle trades directly, you can access your favourite and other reputable exchanges for seamless trading experiences all within Synesxi.
+                  Conduct in-depth research on tokens and dApps on the Solana
+                  Blockchain to make informed investment decisions. Explore a
+                  curated marketplace of  vetted cryptocurrency  tokens. While
+                  we don't handle trades directly, you can access your favourite
+                  and other reputable exchanges for seamless trading experiences
+                  all within Synesxi.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                  src="../assets/Icon (11).svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Fostering Collaboration
+                  Fostering Collaboration
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Synesxi actively promotes multifaceted collaboration across the entire Solana ecosystem.
-
+                  Synesxi actively promotes multifaceted collaboration across
+                  the entire Solana ecosystem.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image
+                   src="../assets/Icon (12).svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Service Providers
+                  Service Providers
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Showcase your expertise and connect with businesses actively shaping the future of Solana. Target your ideal clients efficiently within this booming ecosystem and unlock new business opportunities.
+                  Showcase your expertise and connect with businesses actively
+                  shaping the future of Solana. Target your ideal clients
+                  efficiently within this booming ecosystem and unlock new
+                  business opportunities.
                 </p>
               </div>
             </div>
             <div className="orb w-[400px] min-w-[400px]  py-8 px-7 text-[#fff] flex flex-col gap-y-5 border-y-[0.1px] border-gray-500 border-l-[0.1px] bg-[#272727]">
-              <div>
-                <img src="../assets/Icon.svg" alt="" />
+              <div className="w-[40px] h-[40px]">
+                <Image 
+                  src="../assets/Icon (10).svg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "100%" }}
+                  alt="image"
+                />
               </div>
               <div className="flex flex-col gap-y-4">
                 <h3 className="text-[21px] md:text-[24px] font-semibold">
-                Developers
+                  Developers
                 </h3>
                 <p className="text-[#ffffffbe]">
-                Launch, propel your tokens and or  dApps to new heights. Gain valuable exposure and build a loyal user base within the ever-expanding Solana ecosystem. Synesxi fosters a seamless environment for direct interaction with potential users, accelerating your growth journey.
+                  Launch, propel your tokens and or  dApps to new heights. Gain
+                  valuable exposure and build a loyal user base within the
+                  ever-expanding Solana ecosystem. Synesxi fosters a seamless
+                  environment for direct interaction with potential users,
+                  accelerating your growth journey.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="absolute z-[-10] left-[-10px] bottom-[-10px]">
-        <Bluebg bgcolor="bg-[#A3CA00]" />
-      </div> */}
 
       <Parallex />
     </div>
