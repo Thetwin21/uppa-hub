@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link href="/">
             {" "}
             <Image
-              src="../../assets/Logo-upar 1.svg"
+              src="../vercel.svg"
               width={48}
               height={48}
               alt="logo"

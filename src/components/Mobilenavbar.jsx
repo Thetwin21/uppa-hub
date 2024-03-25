@@ -17,7 +17,7 @@ const Mobilenavbar = () => {
         {" "}
         <div className="w-[48px] h-[48px]">
           <Image
-            src="../../assets/Logo-upar 1.svg"
+            src="../vercel.svg"
             width={48}
             height={48}
             alt="logo"

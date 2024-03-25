@@ -7,17 +7,18 @@ import { BsTwitterX } from "react-icons/bs";
 import { RiYoutubeLine } from "react-icons/ri";
 import { FaTelegram } from "react-icons/fa";
 import Wrapper from "./Wrapper";
+import Copyright from "./copyright";
 
 const Footer = () => {
   return (
     <Wrapper>
       <div className="text-[#ffffff] mb-[60px] gap-y-4 flex flex-col">
         <div className="flex items-center justify-center gap-x-2">
-          <div className="w-[48px] h-[48px]">
+          <div className="w-[39px] h-[39px]">
             <Image
-              src="../../assets/Logo-upar 1.svg"
-              width={48}
-              height={48}
+              src="../vercel.svg"
+              width={100}
+              height={100}
               alt="logo"
               //   sizes="(max-width: 768px) 100vw,
               //         (max-width: 1200px) 50vw,
@@ -25,7 +26,7 @@ const Footer = () => {
               style={{ height: "100%", width: "100%" }}
             />
           </div>
-          <p className="text-[24px] font-serif text-blue-500">YOUR LOGO</p>
+          <p className="text-[34px] font-serif text-blue-500">SYNESXI</p>
         </div>
         <div className="flex justify-between p-2 gap-x-3 text-[16px]">
           <span>
@@ -74,6 +75,7 @@ const Footer = () => {
             <RiYoutubeLine />
           </Link>
         </div>
+        <Copyright />
       </div>
     </Wrapper>
   );

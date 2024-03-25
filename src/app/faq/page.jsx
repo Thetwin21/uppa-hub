@@ -39,7 +39,7 @@ const faq = () => {
     <Wrapper>
       <div className="w-full my-[50px] text-white  bg-[#272727] px-10 py-10">
         <div className="w-full text-center ">
-          <h3 className="text-[34px] font-semibold">Upar Hub FAQ</h3>
+          <h3 className="text-[34px] font-semibold">Synesxi FAQ</h3>
         </div>
         <div className="flex flex-col gap-y-3">
           <div className="mb-6 min-w-[200px] w-full">
@@ -47,7 +47,7 @@ const faq = () => {
               onClick={toggleOpen}
               className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
-              <span className="text-lg font-semibold"> What is Upar Hub?</span>
+              <span className="text-lg font-semibold"> What is Synesxi?</span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
                   isOpen ? "transform rotate-180" : ""
@@ -66,11 +66,7 @@ const faq = () => {
             </button>
             {isOpen && (
               <p className="px-6 py-4 mt-2 text-gray-800 bg-gray-100 rounded-lg shadow-md">
-                Upar Hub is a comprehensive marketplace established on the
-                Solana blockchain, designed to interconnect various stakeholders
-                within the Web3 space. It serves as a centralized platform for
-                applications (dApps), tokens, service providers, and other
-                resources pertinent to the Solana ecosystem.
+                Synesxi offers a paradigm-shifting solution: a comprehensive platform/ecosystem specifically designed to empower you within the Solana blockchain.  Synesxi isn't just a marketplace, it's your gateway to the vibrant Solana blockchain. We connect a global community of key players on the Solana blockchain, from curious newcomers to seasoned veterans  to harness the full potential of this revolutionary technology. Synesxi provides seamless, end-to-end services that cater to every participant within the Solana network, empowering individuals and businesses (B2B/B2C/D2C) to thrive.
               </p>
             )}
           </div>
@@ -81,7 +77,7 @@ const faq = () => {
             >
               <span className="text-lg font-semibold">
                 {" "}
-                What are Upar Hub's goals?
+                What are Synesxi's goals?
               </span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
@@ -105,9 +101,7 @@ const faq = () => {
                   <div>
                     <p>
                       {" "}
-                      <strong>Market Leadership:</strong> To emerge as the
-                      premier marketplace for dApps, tokens, and services within
-                      the Solana ecosystem.
+                      <strong>Market Leadership:</strong> To emerge as the premier gateway for dApps, tokens, and services interaction and collaboration within the Solana ecosystem.
                     </p>
                   </div>
                 </li>
@@ -125,10 +119,7 @@ const faq = () => {
                   <div>
                     <p>
                       {" "}
-                      <strong>Ecosystem Collaboration:</strong> To facilitate
-                      collaboration among different players within the Solana
-                      ecosystem, fostering both business-to-business (B2B) and
-                      business-to-consumer (B2C) interactions.
+                      <strong>Ecosystem Collaboration:</strong>  Synesxi actively aims to connect players within the Solana ecosystem. This focus on Business-to-Business (B2B), Business-to-Consumer (B2C), and Direct-to-Consumer (D2C) interactions. This collaboration fosters interdependence between different sectors.  Synesxi is a platform that promotes collaboration and interdependence as a strategy for growth, and improved adoption of the Solana ecosystem and web3 in general.
                     </p>
                   </div>
                 </li>
@@ -136,22 +127,11 @@ const faq = () => {
                   <div>
                     <p>
                       {" "}
-                      <strong>Continuous Innovation:</strong> To perpetually
-                      innovate and adapt, ensuring Upar Hub remains at the
-                      forefront of the evolving blockchain landscape.
+                      <strong>Continuous Innovation:</strong> To continuously innovate and adapt, ensuring Synesxi remains at the forefront of the evolving blockchain landscape.
                     </p>
                   </div>
                 </li>
-                <li>
-                  <div>
-                    <p>
-                      {" "}
-                      <strong>Market Leadership:</strong> To emerge as the
-                      premier marketplace for dApps, tokens, and services within
-                      the Solana ecosystem.
-                    </p>
-                  </div>
-                </li>
+             
               </ul>
             )}
           </div>
@@ -163,7 +143,7 @@ const faq = () => {
             >
               <span className="text-lg font-semibold">
                 {" "}
-                What services can I access on the Upar Hub platform?
+                What services can I access on the Synesxi platform?
               </span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
@@ -209,7 +189,7 @@ const faq = () => {
                     <p>
                       {" "}
                       <strong>Wallet: </strong>Users can securely store their
-                      Solana tokens within the Upar Hub platform.
+                      Solana tokens within the Synesxi platform.
                     </p>
                   </div>
                 </li>
@@ -217,10 +197,7 @@ const faq = () => {
                   <div>
                     <p>
                       {" "}
-                      <strong>Swap/Bridge (Future): </strong>Planned for launch
-                      in Q3 2025, users will have the ability to seamlessly
-                      exchange tokens between the Solana blockchain and other
-                      leading blockchains.
+                      <strong>Swap/Bridge (Future): </strong>Users will have the ability to seamlessly exchange tokens between the Solana blockchain and other leading blockchains.
                     </p>
                   </div>
                 </li>
@@ -228,7 +205,15 @@ const faq = () => {
                   <div>
                     <p>
                       {" "}
-                      <strong>Advanced Features (Future): </strong>Upar Hub
+                      <strong>Launchpad and Incubator (Future): </strong>Synesxi will offer support to promising blockchain projects through incubation, fundraising, and community engagement.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>
+                      {" "}
+                      <strong>Advanced Features (Future): </strong>Synesxi
                       intends to integrate advanced functionalities such as
                       AI-powered recommendations, personalized dashboards, and
                       more in the forthcoming years.
@@ -245,7 +230,7 @@ const faq = () => {
               className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
-                What are the benefits of using Upar Hub?
+                What are the benefits of using Synesxi?
               </span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
@@ -265,23 +250,19 @@ const faq = () => {
             </button>
             {isOpen3 && (
               <ul className="px-6 py-4 mt-2 text-gray-800 bg-gray-100 rounded-lg shadow-md">
+              <li>
+                <div>
+                  <p>
+                    {" "}
+                    <strong>Access to a Wide Range of Resources: </strong> Users gain access to an extensive array of dApps, tokens, and services within the Solana ecosystem.
+                  </p>
+                </div>
+              </li>
                 <li>
                   <div>
                     <p>
                       {" "}
-                      <strong>Secure Asset Management:</strong> Users gain
-                      access to an extensive array of dApps, tokens, and
-                      services within the Solana ecosystem.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <p>
-                      {" "}
-                      <strong>Service Provider Directory: </strong> The platform
-                      provides a secure and trusted environment for the
-                      purchase, sale, and storage of digital assets.
+                      <strong>Secure Asset Management:</strong> The platform provides a secure and trusted environment for the purchase, sale, and storage of digital assets.
                     </p>
                   </div>
                 </li>
@@ -316,7 +297,7 @@ const faq = () => {
             >
               <span className="text-lg font-semibold">
                 {" "}
-                What is the roadmap for Upar Hub?
+                What is the roadmap for Synesxi?
               </span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
@@ -336,7 +317,7 @@ const faq = () => {
             </button>
             {isOpen4 && (
               <p className="px-6 py-4 mt-2 text-gray-800 bg-gray-100 rounded-lg shadow-md">
-                Upar Hub has delineated a comprehensive five-year roadmap,
+                Synesxi has delineated a comprehensive five-year roadmap,
                 focusing on user experience enhancement, community building, and
                 ongoing innovation. For a detailed breakdown of the roadmap,
                 please visit our website.
@@ -350,7 +331,7 @@ const faq = () => {
               className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
-                what is the Upar Hub token?
+                what is the Nesxi token?
               </span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
@@ -371,7 +352,7 @@ const faq = () => {
             {isOpen5 && (
               <div className="px-6 py-4 mt-2 text-gray-800 bg-gray-100 rounded-lg shadow-md">
                 <p>
-                  The Upar Hub token serves as a utility token within the
+                  The Nesxi token serves as a utility token within the
                   platform, enabling users to:
                 </p>
                 <ul>
@@ -388,7 +369,7 @@ const faq = () => {
               className="flex items-center justify-between w-full px-6 py-4 text-left transition-colors duration-300 bg-[#0d1b29] rounded-lg shadow-md hover:bg-[#93969f] focus:outline-none focus:ring focus:ring-gray-200"
             >
               <span className="text-lg font-semibold">
-                Where can I learn more about Upar Hub?
+                Where can I learn more about Synesxi?
               </span>
               <svg
                 className={`h-6 w-6 text-gray-600 transition-transform ${
@@ -409,9 +390,9 @@ const faq = () => {
             {isOpen6 && (
               <p className="px-6 py-4 mt-2 text-gray-800 bg-gray-100 rounded-lg shadow-md">
                 {" "}
-                You can acquire more information about Upar Hub by visiting our
+                You can acquire more information about Synesxi by visiting our
                 website or perusing our whitepaper. Additionally, updates and
-                insights about Upar Hub can be found on our social media
+                insights about Synesxi can be found on our social media
                 platforms, including Telegram and Twitter.
               </p>
             )}

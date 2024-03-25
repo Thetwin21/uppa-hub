@@ -13,7 +13,7 @@ const privacy = () => {
             <div>
               <h3 className="text-[20px] mb-1 font-semibold">1. Introduction</h3>
               <p>
-                Upar Hub ("we" or "us") is committed to safeguarding the privacy
+                Synesxi ("we" or "us") is committed to safeguarding the privacy
                 of our users ("you") and managing your data responsibly. This
                 Privacy Policy ("Policy") outlines how we collect, utilize,
                 disclose, and secure your information when you access and
@@ -223,7 +223,7 @@ const privacy = () => {
               <h3 className="text-[20px] mb-1 font-semibold"> 10. Compliance with Local Laws and Regulations</h3>
               <div>
                 <p>
-                  Upar Hub does not offer services to countries that prohibit
+                  Synesxi does not offer services to countries that prohibit
                   cryptocurrency trading. You are solely responsible for
                   ensuring your compliance with all applicable laws and
                   regulations in your jurisdiction, including those related to
@@ -263,7 +263,7 @@ const privacy = () => {
 
               <p>
                 If you have any questions about this Policy or your privacy
-                rights, please contact us at info@uparhub.com
+                rights, please contact us at info@synesxi.com
               </p>
             </div>
           </li>
