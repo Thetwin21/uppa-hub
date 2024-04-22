@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { MdArrowOutward } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -31,7 +30,7 @@ const Mobilenavbar = () => {
           onClick={handleToggle}
           className="bg-[#1B95AC] group text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center"
         >
-           <RxHamburgerMenu />
+          <RxHamburgerMenu />
         </button>
       </div>
       <div
@@ -53,9 +52,11 @@ const Mobilenavbar = () => {
           </ul>
         </nav>
         <div className="flex justify-center w-full ">
-          <button className="bg-[#1B95AC] text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center w-[50%] my-3">
-            <span className="">Join waitlist</span>
-          </button>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScGVO2NmdZvDGPAhdQzFvSnVksIhtysa-ZeyiGkTloOmVpkPw/viewform">
+            <button className="bg-[#1B95AC] text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center w-[50%] my-3">
+              <span className="">Join waitlist</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

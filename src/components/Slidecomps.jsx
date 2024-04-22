@@ -4,12 +4,12 @@ import Slidecontainer from "./Slidecontainer";
 const Slidecomps = () => {
   return (
     <div className="flex flex-col mb-[50px] gap-y-[50px] w-[100%]">
-      <h1 className="text-3xl md:text-[64px] text-center text-[#ffffff]  font-bold  md:leading-[73px]">
+      <h1 data-aos="fade-up" className="text-3xl md:text-[64px] text-center text-[#ffffff]  font-bold  md:leading-[73px]">
         Interact with confidence, knowing that every offering has been
         rigorously evaluated
       </h1>
-      <div className="grid grid-cols-1 gap-y-5 md:grid-cols-3 gap-x-5">
-        <div className="rounded-[10px] p-[20px] w-full h-[508px] flex flex-col gap-y-4 pt-[50px] bg-[#8C5CA4] group hover:bg-[#000] hover:scale-[1.1] hover:border-[1px] border-[#8C5CA4] transition-all">
+      <div data-aos="fade-left" className="grid grid-cols-1 gap-y-5 md:grid-cols-3 gap-x-5">
+        <div className="rounded-[10px] p-[20px] w-full h-[508px] flex flex-col gap-y-4 pt-[50px] bg-[#8C5CA4] group hover:bg-[#000]  hover:border-[1px] border-[#8C5CA4] transition-all">
           <h3 className="text-[24px] font-bold text-[#fff]">
             Tailored Benefits
           </h3>
@@ -41,7 +41,7 @@ const Slidecomps = () => {
             </p>
           </div>
         </div>
-        <div className="rounded-[10px] p-[20px] w-full h-[508px] flex flex-col gap-y-4 pt-[50px] bg-[#EDFFCF]  group hover:bg-[#000] hover:scale-[1.1] hover:border-[1px] border-[#8C5CA4] transition-all ">
+        <div className="rounded-[10px] p-[20px] w-full h-[508px] flex flex-col gap-y-4 pt-[50px] bg-[#EDFFCF]  group hover:bg-[#000]  hover:border-[1px] border-[#8C5CA4] transition-all ">
           <h3 className="group-hover:text-[#fff] text-[24px] font-bold text-[#000] ">
             B2B, B2C and Direct to Consumers{" "}
           </h3>
@@ -73,7 +73,7 @@ const Slidecomps = () => {
             </p>
           </div>
         </div>
-        <div className="rounded-[10px] p-[20px] w-full h-[508px] flex flex-col gap-y-4 pt-[50px] bg-[#FFEACF]  group hover:bg-[#000] hover:scale-[1.1] hover:border-[1px] border-[#8C5CA4] transition-all">
+        <div className="rounded-[10px] p-[20px] w-full h-[508px] flex flex-col gap-y-4 pt-[50px] bg-[#FFEACF]  group hover:bg-[#000]  hover:border-[1px] border-[#8C5CA4] transition-all">
           <h3 className=" group-hover:text-[#fff] text-[24px] font-bold text-[#000]">
             Partners
           </h3>

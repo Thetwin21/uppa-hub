@@ -1,7 +1,10 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 
 const Main = () => {
+  const [learnMore, setLearnMore] = useState(
+    "Synesxi offers a paradigm-shifting solution: a comprehensive platform/ecosystem specifically designed to empower you within the Solana blockchain.  Synesxi isn't just a marketplace, it's your gateway to the vibrant Solana blockchain. We connect a global community of key players on the Solana blockchain, from curious newcomers to seasoned veterans  to harness the full potential of this revolutionary technology. Synesxi provides seamless, end-to-end services that cater to every participant within the Solana network, empowering individuals and businesses (B2B/B2C/D2C) to thrive"
+  );
 
   return (
     <div
@@ -16,11 +19,27 @@ const Main = () => {
           </h1>
         </span>
         <p className="text-[#ffffffbe] text-[20px] md:text-[26px]">
-        Discover, Collaborate, & Own Your Solana Journey
+          Discover, Collaborate, & Own Your Solana Journey
         </p>
       </div>
+
+      {/* <div className="flex flex-col items-center justify-center px-5 py-2 rounded-3xl gap-x-2 "> */}
       <div>
-        <button className="bg-[rgba(89,183,233,1)] h-[46px] w-[176px] flex justify-center items-center font-semibold rounded-[10px] text-[#fff]">Learn More</button>
+        <button
+          data-tooltip-target="tooltip-bottom"
+          data-tooltip-placement="bottom"
+          type="button"
+          className="bg-[rgba(89,183,233,1)] flex items-center justify-center px-5 py-2 gap-x-2  font-semibold rounded-[10px] text-[#fff] relative top-0 left-0"
+        >
+          Learn More
+        </button>
+        <div  
+          id="tooltip-bottom"
+          role="tooltip"
+          class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+        >
+          Synesxi offers a paradigm-shifting solution: a comprehensive platform/ecosystem specifically designed to empower you within the Solana blockchain.  Synesxi isn't just a marketplace, it's your gateway to the vibrant Solana blockchain. We connect a global community of key players on the Solana blockchain, from curious newcomers to seasoned veterans  to harness the full potential of this revolutionary technology. Synesxi provides seamless, end-to-end services that cater to every participant within the Solana network, empowering individuals and businesses (B2B/B2C/D2C) to thrive.
+        </div>
       </div>
     </div>
   );

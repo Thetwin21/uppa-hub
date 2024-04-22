@@ -35,7 +35,7 @@ const slideData = [
 
 const Slidecontainer = () => {
   return (
-    <div className="absolute flex w-full h-full gap-x-5">
+    <div data-aos="fade-right" className="absolute flex w-full h-full gap-x-5">
       <div className="bg-[rgba(89,183,233,1)] h-full w-[336px] min-w-[336px]  p-[40px]  rounded-lg">
         <div className="flex flex-col h-full place-content-between">
           <div className="flex flex-col gap-y-3 ">

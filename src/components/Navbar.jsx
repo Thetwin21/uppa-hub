@@ -2,9 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MdArrowOutward, MdClose } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 import { usePathname } from "next/navigation";
-import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const path = usePathname();
@@ -19,9 +18,6 @@ const Navbar = () => {
               width={48}
               height={48}
               alt="logo"
-              //   sizes="(max-width: 768px) 100vw,
-              //         (max-width: 1200px) 50vw,
-              //         33vw"
               style={{ height: "100%", width: "100%" }}
             />
           </Link>
@@ -51,14 +47,16 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <button className="bg-[#1B95AC] group text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center">
-          <span className="hidden transition-all md:block group-hover:block">
-            Join waitlist
-          </span>{" "}
-          <div>
-            <MdArrowOutward />
-          </div>
-        </button>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScGVO2NmdZvDGPAhdQzFvSnVksIhtysa-ZeyiGkTloOmVpkPw/viewform">
+          <button className="bg-[#1B95AC] group text-white rounded-3xl py-2 px-5 flex gap-x-2 items-center justify-center">
+            <span className="hidden transition-all md:block group-hover:block">
+              Join waitlist
+            </span>{" "}
+            <div>
+              <MdArrowOutward />
+            </div>
+          </button>
+        </Link>
       </div>
     </div>
   );

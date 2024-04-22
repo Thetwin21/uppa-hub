@@ -33,7 +33,7 @@ const Footer = () => {
             <Link href="/faq">FAQ</Link>
           </span>
           <span>
-            <Link href="/faq">Careers</Link>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScGVO2NmdZvDGPAhdQzFvSnVksIhtysa-ZeyiGkTloOmVpkPw/viewform">Careers</Link>
           </span>
           <span className="mx-5">
             <Link href="/privacy">Privacy Policy</Link>
@@ -44,32 +44,32 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-between w-full gap-x-3">
           <Link
-            href=""
+            href="https://www.linkedin.com/company/synesxi/"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <BsLinkedin />
           </Link>
           <Link
-            href="https://x.com/uparhub"
+            href="https://twitter.com/synesxi"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <BsTwitterX />
           </Link>
 
           <Link
-            href="https://t.me/uparhub"
+            href="https://t.me/synesxi"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <FaTelegram />
           </Link>
           <Link
-            href="https://medium.com/@uparhub"
+            href="https://medium.com/@synesxi"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <BsMedium />
           </Link>
           <Link
-            href="https://www.youtube.com/@UparHub"
+            href="/"
             className="rounded-[50%] bg-[#272727] p-3 cursor-pointer"
           >
             <RiYoutubeLine />
